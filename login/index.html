@@ -4,20 +4,41 @@
         <title>login_interface</title>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="conteiner">
-            <div id="content">
+            <div class="conteiner"id="content">
                 <div id="profilo">
-                    <div id="testa"></div>
-                    <div id="corpo"></div>
+                    <div id="testa">
+                        <div id="occhi"></div>
+                        <div id="naso"></div>
+                        <div id="bocca"></div>
+                    </div>
+                    <div id="corpo">
+                        <div id="camicia">
+                            <div id="cravatta"></div>
+                        </div>
+                    </div>
                 </div>
                 <br>
                 <label>Username</label>
-                <input type="text" class="input" id="username">
+                <form>
+                    <input type="text" class="input" id="username">
+                </form>
                 <br>
                 <label>Password</label>
                 <input type="password" class="input" id="password">
+                <br>
+                <button>Login</button>
+                <br>
+                <br>
+                <div id="link">
+                    <a href="">Register now!</a>
+                    <a href="">Forgot password</a>
+                </div>
             </div>
         </div>
         <script src="js.js"></script>
